@@ -1,0 +1,57 @@
+/* Reset some default margins */
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* NAVBAR STYLING */
+.navbar {
+  display: flex;
+  justify-content: space-between;  /* logo left, links right */
+  align-items: center;
+  background-color: #0a034d;       /* matches your logo color */
+  padding: 10px 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+/* Links inside navbar */
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  transition: background 0.3s;
+}
+
+.nav-links a:hover {
+  background: #0047aa;
+  border-radius: 5px;
+}
+
+/* Highlight active page */
+.nav-links a.active {
+  border-bottom: 2px solid yellow;
+}
+
+/* FOOTER */
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
