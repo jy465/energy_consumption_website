@@ -15,7 +15,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #abb103; 
+  background-color: #f4be49; 
   padding: 12px 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -43,7 +43,7 @@ body {
 }
 
 .nav-links a:hover {
-  background: #fffa9a;
+  background: #a8a80a;
   transform: translateY(-2px); 
 }
 
