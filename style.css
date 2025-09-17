@@ -48,7 +48,7 @@ body {
 }
 
 .nav-links a.active {
-  border-bottom: 2px solid yellow;
+  border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 
@@ -60,7 +60,7 @@ main {
 
 main h1 {
   font-size: 2rem;
-  color: #1e4203;
+  color: #000000;
   margin-bottom: 15px;
 }
 
