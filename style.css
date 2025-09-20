@@ -77,6 +77,8 @@ main p {
 
 
 footer {
+  position: sticky;
+  bottom: 0;
   background-color: #222223;
   color: white;
   text-align: center;
