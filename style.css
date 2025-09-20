@@ -1,19 +1,8 @@
-
-body, ul {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background-color: #fdfdfd;
-  color: #333;
-  line-height: 1.6;
-}
-
 .navbar {
-  position: sticky;
+  position :fixed;
   top: 0;
+  width: 100%;
+  z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,6 +10,21 @@ body {
   padding: 12px 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+body, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+  color: #333;
+  line-height: 1.6;
+}
+
+
 
 .logo img {
   height: 40px;
