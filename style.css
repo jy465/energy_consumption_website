@@ -1,7 +1,7 @@
 .navbar {
   position :fixed;
   top: 0;
-  width: 100%;
+  width: 95%;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -77,8 +77,6 @@ main p {
 
 
 footer {
-  position: sticky;
-  bottom: 0;
   background-color: #222223;
   color: white;
   text-align: center;
